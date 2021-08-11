@@ -29,7 +29,7 @@ function drawStick() {
 }
 
 function drawBall(){
-  ctx.fillStyle = '#434743';
+  ctx.fillStyle = '#3f974e';
   ctx.beginPath();
   ctx.arc(xBall, yBall, radiusBall, 0, 2*Math.PI);
   ctx.fill();
